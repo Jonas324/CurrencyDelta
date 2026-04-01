@@ -15,7 +15,7 @@ A REST API that calculates the exchange rate delta between a baseline currency a
 
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/Jonas324/CurrencyDelta.git
    cd CurrencyDelta
    ```
 
