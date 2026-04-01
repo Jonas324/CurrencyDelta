@@ -109,3 +109,4 @@ C:\DeveloperProjects\calculator\CurrencyDeltaApi.Tests\obj\Debug\net9.0\refint\C
 C:\DeveloperProjects\calculator\CurrencyDeltaApi.Tests\obj\Debug\net9.0\CurrencyDeltaApi.Tests.pdb
 C:\DeveloperProjects\calculator\CurrencyDeltaApi.Tests\obj\Debug\net9.0\CurrencyDeltaApi.Tests.genruntimeconfig.cache
 C:\DeveloperProjects\calculator\CurrencyDeltaApi.Tests\obj\Debug\net9.0\ref\CurrencyDeltaApi.Tests.dll
+C:\DeveloperProjects\calculator\CurrencyDeltaApi.Tests\obj\Debug\net9.0\CurrencyDeltaApi.Tests.sourcelink.json

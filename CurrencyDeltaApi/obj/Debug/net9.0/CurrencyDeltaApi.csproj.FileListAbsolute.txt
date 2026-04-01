@@ -77,3 +77,4 @@ C:\DeveloperProjects\calculator\CurrencyDeltaApi\obj\Debug\net9.0\ref\CurrencyDe
 C:\DeveloperProjects\calculator\CurrencyDeltaApi\obj\Debug\net9.0\scopedcss\Components\Pages\CurrencyDelta.razor.rz.scp.css
 C:\DeveloperProjects\calculator\CurrencyDeltaApi\obj\Debug\net9.0\compressed\gwv9nixysq-f18njzoj4g.gz
 C:\DeveloperProjects\calculator\CurrencyDeltaApi\obj\Debug\net9.0\compressed\h158nj3vf3-f18njzoj4g.gz
+C:\DeveloperProjects\calculator\CurrencyDeltaApi\obj\Debug\net9.0\CurrencyDeltaApi.sourcelink.json

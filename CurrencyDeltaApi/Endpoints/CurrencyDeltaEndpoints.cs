@@ -12,7 +12,7 @@ public static class CurrencyDeltaEndpoints
         {
             var validation = validator.Validate(request);
             if (!validation.IsValid)
-                return Results.BadRequest(new ErrorResponse { ErrorCode = validation.ErrorCode, ErrorDetails = validation.ErrorDetails });
+                return Results.BadRequest(new ErrorResponse { ErrorCode = validation.ErrorCode ?? string.Empty, ErrorDetails = validation.ErrorDetails ?? string.Empty });
 
             try
             {

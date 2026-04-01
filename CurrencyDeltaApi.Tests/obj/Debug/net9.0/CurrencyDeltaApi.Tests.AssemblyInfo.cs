@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CurrencyDeltaApi.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92ef5b49b39b1ccf7d78ea9c17621f5b48d097c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CurrencyDeltaApi.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CurrencyDeltaApi.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
