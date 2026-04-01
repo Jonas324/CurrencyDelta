@@ -12,7 +12,7 @@ public static class CurrencyDeltaEndpoints
         {
             var validation = validator.Validate(request);
             if (!validation.IsValid)
-                return Results.BadRequest(new { errorCode = validation.ErrorCode, errorDetails = validation.ErrorDetails });
+                return Results.BadRequest(new ErrorResponse { ErrorCode = validation.ErrorCode, ErrorDetails = validation.ErrorDetails });
 
             try
             {
@@ -21,7 +21,7 @@ public static class CurrencyDeltaEndpoints
             }
             catch (InvalidOperationException ex)
             {
-                return Results.BadRequest(new { errorCode = "invalidcurrency", errorDetails = ex.Message });
+                return Results.BadRequest(new ErrorResponse { ErrorCode = "invalidcurrency", ErrorDetails = ex.Message });
             }
         });
     }
