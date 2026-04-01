@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CurrencyDeltaApi.Tests/CurrencyDeltaApi.Tests.csproj" />
+  <Project Path="CurrencyDeltaApi/CurrencyDeltaApi.csproj" />
+</Solution>

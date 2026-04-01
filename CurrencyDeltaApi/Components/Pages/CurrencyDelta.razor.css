@@ -1,0 +1,86 @@
+.calculator-container {
+    max-width: 640px;
+    margin: 2rem auto;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.form-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.form-row {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    flex: 1;
+}
+
+.form-group label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #444;
+}
+
+.form-group select,
+.form-group input[type="date"] {
+    padding: 0.45rem 0.65rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    background: #fafafa;
+}
+
+.btn-calculate {
+    align-self: flex-start;
+    padding: 0.5rem 1.5rem;
+    background: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+.btn-calculate:hover {
+    background: #0052a3;
+}
+
+.error-message {
+    color: #cc0000;
+    font-size: 0.9rem;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+}
+
+.results-table th,
+.results-table td {
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.results-table th {
+    font-weight: 600;
+    color: #444;
+    font-size: 0.85rem;
+}
